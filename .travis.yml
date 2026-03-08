@@ -1,4 +1,9 @@
 language: python
+
+env:
+  global:
+    - COVERALLS_SERVICE_NAME=travis-pro
+
 python:
   - "3.11"
 
